@@ -1,0 +1,18 @@
+.projectDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projectCards {
+  height: 200px;
+  width: 350px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gitButton {
+  margin-left: 10px;
+  cursor: pointer;
+}

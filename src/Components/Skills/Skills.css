@@ -1,0 +1,42 @@
+.skillsContainer {
+  background-color: whitesmoke;
+  position: absolute;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 85%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  /* margin-top: 40px; */
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.skillsContent {
+  height: 85%;
+  width: 90%;
+  background-color: whitesmoke;
+  align-items: center;
+  /* display: flex;
+  justify-content: space-around;
+  flex-direction: column; */
+  padding: 20px;
+}
+.skillsContent h2 {
+  padding-left: 20px;
+}
+.skillsContent h3 {
+  padding-left: 20px;
+}
+.skillsContent p {
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 770px) {
+  .skillsContainer {
+    width: 100%;
+    overflow-y: scroll;
+    z-index: 0;
+  }
+}

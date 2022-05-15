@@ -1,0 +1,66 @@
+.homeSidebar {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 15%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sidebarContent {
+  /* margin-top: 150px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.homeSidebar a {
+  margin-top: 30px;
+  padding: 6px 8px 6px 6px;
+  text-decoration: none;
+  font-size: 25px;
+  color: grey;
+  display: block;
+  font-weight: 300;
+}
+
+.homeSidebar a:hover {
+  color: #1976d2;
+}
+
+.bottomNavbar {
+  display: none;
+}
+
+@media only screen and (max-width: 770px) {
+  .homeSidebar {
+    display: none;
+  }
+  .bottomNavbar {
+    display: flex;
+    background-color: #111;
+    bottom: 0.25ch;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+  }
+  .bottomNavbar a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .bottomNavbar a:hover {
+    /* color: rgb(203, 250, 33); */
+    color: #1976d2;
+  }
+}

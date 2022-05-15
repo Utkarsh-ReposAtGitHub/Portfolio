@@ -1,0 +1,77 @@
+.aboutContainer {
+  background-color: whitesmoke;
+  position: absolute;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 85%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  /* margin-top: 40px; */
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.aboutContent {
+  height: 85%;
+  width: 90%;
+  background-color: whitesmoke;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.myInfo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  line-height: 10ch;
+}
+
+.myName {
+  font-size: 40px;
+  line-height: 3ch;
+  font: #111;
+  font-weight: 600;
+}
+.myDesignation {
+  font-size: 25px;
+  line-height: 1ch;
+  color: #9e9e9e;
+  font-weight: 500;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.myObjective {
+  font: #111;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 770px) {
+  .aboutContainer {
+    width: 100%;
+    overflow-y: scroll;
+    z-index: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .myName {
+    font-size: 30px;
+  }
+  .myDesignation {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .myName {
+    font-size: 20px;
+  }
+  .myDesignation {
+    font-size: 12px;
+  }
+}

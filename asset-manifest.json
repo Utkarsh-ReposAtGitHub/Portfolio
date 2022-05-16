@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.736bc40a.css",
+    "main.js": "/Portfolio/static/js/main.c7f4b281.js",
+    "static/media/profilePImg.jpg": "/Portfolio/static/media/profilePImg.59f5f0f384a3ab9d15e7.jpg",
+    "static/media/UtkarshChandraCV.pdf": "/Portfolio/static/media/UtkarshChandraCV.03c465359fd3af2d2048.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.736bc40a.css.map": "/Portfolio/static/css/main.736bc40a.css.map",
+    "main.c7f4b281.js.map": "/Portfolio/static/js/main.c7f4b281.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.736bc40a.css",
+    "static/js/main.c7f4b281.js"
+  ]
+}

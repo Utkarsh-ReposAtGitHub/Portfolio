@@ -64,10 +64,10 @@ const About = () => {
         <div className="myObjective">
           <p>
             Application Developer with Industry experience in Full-Stack Web
-            Development with leading IT Companies. Worked on large-scale with
-            clients from financial services and Banks with complex architecture.
-            Looking forward to work for challenging technical requirements. Feel
-            free to navigate to know more.
+            Development with leading IT Companies. Worked on large-scale
+            projects with clients from financial services and Banks with complex
+            architecture. Looking forward to work for challenging technical
+            requirements. Feel free to navigate to know more.
           </p>
           <br></br>
           <Divider variant="middle" color="whitesmoke" />

@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Utkarsh Chandra Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+this project demonstrates the professional information about me. [Hosted here](https://Utkarsh-ReposAtGitHub.github.io/Utkarsh-Chandra-Portfolio).
 
 ## Available Scripts
 
